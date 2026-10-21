@@ -138,10 +138,7 @@ These checks provide functional smoke tests. They do not establish complete comp
 │   ├── auxi.c         # Mapping, lookup, splitting and coalescing
 │   └── malloc.h       # Metadata definitions and function declarations
 └── tests/
-    ├── testsuite.sh   # Test script executed by make check
-    ├── corruptionproof
-    ├── memoryfootprint
-    └── speed
+    └── testsuite.sh   # Test script executed by make check
 ```
 
 ## Limitations
